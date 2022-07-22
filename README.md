@@ -6,9 +6,30 @@
 The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns.
   </p>
   <p>
-  Within this Practical Application, I will deliver understanding of the business objectives, show the need for data preparation, and modeling. After which, I will demostrate a correct and concise interpretation of descriptive and inferential statistics. My findings, which will include actional insights, will be used to suggest next steps and recommendations. 
+  Within this Practical Application, I will deliver understanding of the business objectives, show the need for data preparation, and modeling. After which, I will demostrate a correct and concise interpretation of descriptive and inferential statistics. My findings, which will include actionable insights, will be used to suggest next steps and recommendations. 
   </p>
-  <hr>
-  <p>
+
+
+# Business Objectives
+<p>
+ asdf
+ </p>
  
+# Data Preparation
+<p>
+ asdf
+ </p>
+
+# Modeling
+<p>
+ asdf
+ </p>
+ 
+# Actionable Insights
+<p>
+ asdf
+ </p>
+# Next Steps & Recommendation
+<p>
+ asdf
  </p>
