@@ -69,14 +69,47 @@ The data is from a Portuguese banking institution and is a collection of the res
 
 # Modeling
 <p>
- asdf
+ <b> A baseline analysis:</b><br>
+Training time :[0.0009992122650146484]<br>
+Training accuracy :[0.5025840241406819]<br>
+Test accuracy :[0.5020636076717649]<br>
+Accuracy score : Not Yet Available<br>
+AUC score : Not Yet Available<br>
+ <br>
+############LOGISTIC REGRESSION ANALYSIS###############<br>
+<br>
+Training time :0.15794897079467773<br>
+Training accuracy :0.9102355103881239<br>
+Test accuracy :0.9101723719349356<br>
+Accuracy score : 0.9101723719349356<br>
+AUC score : 0.6906601848219758<br>
+<br>
+######################################################<br>
+ <img src='https://awesomescreenshot.s3.amazonaws.com/image/3446742/30517597-a518b4b20adbc81949c04ed8ef361673.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220722%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220722T200329Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=05d8c4b12cba8678b27082c777775eb158791d301b1e887f361d7faf219f7da1'>
+<br>
+ 
+ <b>Logistric Regression Feature Importance Score</b><br>
+ <img src='https://awesomescreenshot.s3.amazonaws.com/image/3446742/30517627-ac6e004f8fb775e8d93676dd126f0a7e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220722%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220722T200437Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=25524da21c10cb4573bfbf098bcbb606a104b6e8482f6f22d376ea178fa67645'><br><br>
+ <b> Decision Tree Feature Importance Score</b><br>
+<img src='https://awesomescreenshot.s3.amazonaws.com/image/3446742/30517673-b6d7d5e4bd63a3abdc0fa6ce2beb4c70.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220722%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220722T200625Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=1bdf6d1366b452b649a9cdd41d535faaa3061043ec0069d7add14c61fd381729'><br><br>
+
+ <b>SVM Feature Importance</b><br>
+ <img src='[https://tinyurl.com/2yrmnkfz](https://awesomescreenshot.s3.amazonaws.com/image/3446742/30517721-aa718ff3832a1405e8a78eaca6d4f3e1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220722%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220722T200803Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=5c709d76e132a81f796fc25aa7f9f9edc5d05136e42c88e3f546fe070b646934)'><br><br>
+ 
+ 
+ 
  </p>
  
-# Actionable Insights
+# Actionable Insights, Next Steps, and Recommendations
 <p>
- asdf
- </p>
-# Next Steps & Recommendation
-<p>
- asdf
+&bull; Investigate current culture of the company
+<br>&bull; Investigate how workers are interacting when phone banking
+<br>&bull; Explorer employee morale
+<br>&bull; Our data indicates that efforts are best geared toward acquisition of 'new' customers and not current
+<br>&bull; Our data indicates that current campaign results is higlybased on previous outcome of campaigns (feature POUTCOME).
+<br>&bull; Our data indicates that the duration of the call is key to winning a successful campaign. You have a time window of opportunity. Do not abuse it. Perhaps time series analysis can be conducted on this in the future.
+<br>&bull; EURIBOR 3Month was an important feature in determination of success of campaign
+<br>&bull; Other salient observations highly regard duration and nr.employed as highly important. This should be looked at by management.
+<br>&bull; Our logistic regression model suggest that the type of job that our potential customer has, plays a key role in our campaign success. Perhaps we can guide our marketing team towards targeting these groups of people.
+<br>&bull; Our logistic regression model also suggest that individuals without previous credit defaulting are good candidates for our campaign.
  </p>
