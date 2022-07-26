@@ -1,7 +1,7 @@
 # Practical Application III: Marketing of Bank Products
 <p>
- In this Practical Application (III), my goal is to compare the performance of the classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines (SVC). The dataset that we are working with is related to the marketing of bank products over the telephone. The dataset may be <a href="https://archive.ics.uci.edu/ml/datasets/bank+marketing" target="_blank">found here.</a>
- </p>
+ In this Practical Application (III), my goal is to compare the performance of the classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines (SVC). The dataset that we are working with is related to the marketing of bank products over the telephone. The dataset may be <a href="https://archive.ics.uci.edu/ml/datasets/bank+marketing" target="_blank">found here.</a> Browser-friendly view of this Practical Application may be <u><a href="https://federalcomputing.com/PracticalApplication_III_DanielW.html" parent="_blank">found here,</a></u> which includes all renderings of visuals, plots and representations.
+</p>
  <p>
 The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns.
   </p>
