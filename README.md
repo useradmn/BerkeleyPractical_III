@@ -12,7 +12,7 @@ The data is from a Portuguese banking institution and is a collection of the res
 
 # Business Objectives
 <p>
->&bull; The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. Find how we can get more of yes instead of no.
+&bull; The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed. Find how we can get more of yes instead of no.
 <br>&bull; The data represents the work of 17 campaigns that occurred between May 2008 and November 2010, corresponding to a total of 79354 contacts. We will need to find out if the previous campaign has any bearings on the current one or future campaigns. Perhaps their experience with the previous campaign may have an affect. Perhaps it is an important feature.
 <br>&bull; During these phone campaigns, an attractive long-term deposit application, with good interest rates, was offered. Find out who is best suitable for this.
 <br>&bull; For each contact, a large number of attributes was stored in addition to if there was a success (we identify this as the target variable). Find out what information play this role and what has the most importance.
